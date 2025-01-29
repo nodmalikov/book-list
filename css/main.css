@@ -39,3 +39,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+tbody th {
+    font-weight: 500;
+}

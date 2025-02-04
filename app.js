@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', (event) => {
         event.preventDefault()
         
-        // Basic validation    
+        // Basic validation
         if (title.value == '' && author.value == '' && year.value == '') {
             alert('Please input your information')
         } else {
@@ -37,5 +37,5 @@ window.addEventListener('DOMContentLoaded', () => {
             author.value = ''
             year.value = ''
         }
-    })      
+    })
 })
